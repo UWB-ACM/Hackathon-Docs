@@ -1,5 +1,7 @@
 # Styling your website to be responsive
 
+## Mobile-First Design
+
 ## Viewport
 
 ## Media Queries
