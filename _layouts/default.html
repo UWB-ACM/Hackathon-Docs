@@ -30,8 +30,7 @@
         <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
         {% endif %}
 
-        <!-- Uncategorized -->
-
+        <!-- Uncategorized Pages-->
         {% for page in site.pages %}
           {% if page.categories contains 'no-category' %}
             <a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
@@ -40,8 +39,8 @@
         {% endfor %}
 
         <br />
-        
-        <!-- Guides -->
+
+        <!-- Guides Pages-->
         <h2>Guides</h2>
         {% for page in site.pages %}
           {% if page.categories contains 'intro' %}
@@ -52,6 +51,7 @@
 
         <br />
 
+        <!-- Download Link Buttons (currently not used) -->
         {% if site.show_downloads %}
         <ul>
           <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
@@ -64,6 +64,7 @@
 
       {{ content }}
 
+      <!-- Footer section -->
       </section>
       <footer>
         {% if site.github.is_project_page %}
@@ -72,6 +73,8 @@
         <p><small>Hosted on GitHub Pages</small></p>
       </footer>
     </div>
+
+    <!-- Google Analytics Tracking Code -->
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
     {% if site.google_analytics %}
     <script>
