@@ -1,7 +1,7 @@
 ---
 title: Hackathon Preparation Checklist
 layout: topic
-categories: guide
+categories: no-category
 ---
 
 Whether you're a hackathon newbie or a 10x "Unicorn",

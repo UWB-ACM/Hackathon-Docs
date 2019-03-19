@@ -1,7 +1,7 @@
 ---
 title: All About Hosting
 layout: topic
-categories: guide
+categories: intro
 ---
 
 ## An Overview of Different Hosting Options

@@ -30,12 +30,27 @@
         <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
         {% endif %}
 
+        <!-- Uncategorized -->
+
         {% for page in site.pages %}
-          {% if page.categories contains 'guide' %}
+          {% if page.categories contains 'no-category' %}
             <a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
             <br />
           {% endif %}
         {% endfor %}
+
+        <br />
+        
+        <!-- Guides -->
+        <h2>Guides</h2>
+        {% for page in site.pages %}
+          {% if page.categories contains 'intro' %}
+            <a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
+            <br />
+          {% endif %}
+        {% endfor %}
+
+        <br />
 
         {% if site.show_downloads %}
         <ul>
