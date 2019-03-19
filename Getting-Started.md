@@ -28,12 +28,3 @@ as `servers`. The word `server` can refer to both the computer, or the computer 
 Servers "serve" information to viewers, allowing them to download webpages to view and navigate. A server can be run from almost any computer with the right software. You can also run a server `locally` on your own computer for development purposes. It doesn't necessarily have to be connected to the internet.
 
 At a fundamental level, websites are a collection of files and code that work together to make delightful interactive applications that communicate with the internet.
-
-## Protocols and Ports
-
-There's this thing called the internet layer, which allows `hosts`, (all `servers` are considered to be hosts, but not the other way around) to communicate with each other using `ports`. In computer networking, a port is a communication endpoint. It is where data is sent and recieved in the form of `packets`.
-
-With basic websites you'll be dealing with ports `80` and `443`. Port `80` serves packets over `http`. HTTP stands for
-HyperText Transfer Protocol - the standard protocol for internet layer communication.
-
-Port 443 serves `https`, HTTPS stands for HyperText Transfer Protocol Secure. It almost the same as `http` except that it uses Transport Layer Security (`TLS`), or its predecessor, Secure Sockets Layer (`SSL`) to encrypt packets.
