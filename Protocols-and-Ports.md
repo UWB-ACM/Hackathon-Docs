@@ -1,7 +1,7 @@
 ---
 title: Protocols and Ports
 layout: topic
-categories: guide
+categories: intro
 ---
 
 ## Protocols and Ports
