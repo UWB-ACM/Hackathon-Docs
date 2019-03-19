@@ -1,5 +1,5 @@
 ---
-title: Getting Started
+title: Forward
 layout: topic
 categories: no-category
 ---
@@ -28,3 +28,14 @@ as `servers`. The word `server` can refer to both the computer, or the computer 
 Servers "serve" information to viewers, allowing them to download webpages to view and navigate. A server can be run from almost any computer with the right software. You can also run a server `locally` on your own computer for development purposes. It doesn't necessarily have to be connected to the internet.
 
 At a fundamental level, websites are a collection of files and code that work together to make delightful interactive applications that communicate with the internet.
+
+## Boundless Opportunity
+
+While you may think of traditional websites as unchanging things, they don't have to be. `Static websites` are websites
+that are built using traditional `HTML` and `CSS` and browser-based `Javascript`, and may not change, displaying static content. Many beautiful and modern informational websites are considered to be static.
+
+`Dynamic websites` are built with a scripting language, like `Python`, `Ruby`, `PHP`, `ASP`, `Node`, etc. Content can be dynamically updated serverside. You can leverage this to create unique services and web applications that run in the
+browser. Examples are sites like Facebook, Twitter, Medium, Amazon, etc.
+
+Creative applications for dynamic websites can include games built in WebGL, for example - hosting a website like
+coolmathgames.com 😩.

@@ -1,5 +1,5 @@
 ---
-title: All About Hosting
+title: Kinds of Servers
 layout: topic
 categories: intro
 ---

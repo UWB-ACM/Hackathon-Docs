@@ -42,6 +42,9 @@
 
         <!-- Guides Pages-->
         <h2>Guides</h2>
+               
+        <h3>Getting Started</h3>
+
         {% for page in site.pages %}
           {% if page.categories contains 'intro' %}
             <a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
