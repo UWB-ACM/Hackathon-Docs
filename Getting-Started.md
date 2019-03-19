@@ -1,7 +1,7 @@
 ---
 title: Getting Started
 layout: topic
-categories: intro
+categories: no-category
 ---
 
 ## Forward
