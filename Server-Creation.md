@@ -1,7 +1,7 @@
 ---
 title: Create a Web Server on Digital Ocean
 layout: topic
-categories: technical
+categories: guide
 ---
 
 In order to get your website deployed, you will need to create and configure a machine to do that. This page has all the information you need to create and configure a Digital Ocean droplet to host your website.
@@ -107,7 +107,7 @@ You are now all set to use your droplet!
 This is ***strongly*** recommended for security and traceability of user access. A brief summary of the required steps are as follows:
 
 1. SSH into your new droplet's root account: `ssh root@DROPLET_IP`.
-2. Create a new user with the command `adduser *username*`, where `username` is replaced with the username of your choice.
+2. Create a new user with the command `adduser *username*`, where `*username*` is replaced with the username of your choice.
 3. When prompted, choose a password for the new user.
 4. When prompted, you can fill in the user's contact information. For ease of use, you can leave the fields as-is.
 5. If your new user needs `sudo` privileges (which is likely), you can grant sudo privileges to the new user with the following command: `usermod -aG *username*`
@@ -118,13 +118,14 @@ This is ***strongly*** recommended for security and traceability of user access.
 
 This is ***strongly*** recommended for security and traceability of user access, ***especially if you do not create individual accounts for your teammates***. This step will give your teammates access to the droplet without having to distribute the root password to all teammates.
 
-1. Have your teammates generate an SSH key for the droplet. Detailed instructions on how to do this are described [here]().
+1. Have your teammates generate an SSH key for the droplet. Detailed instructions on how to do this are described [here](https://www.ssh.com/ssh/keygen/). 
+    <br>It is recommended to generate a key using `rsa` or `ed25519` algorithms, and giving the keyfile a memorable name (how about `hackathon`?). Note that when specifying a new key name, you need to provide the absolute path to the `~/.ssh` folder, and further specify the filename with no extension.
 2. Obtain the newly created ***public*** key file from your teammate. There are two files that get generated with the `ssh-keygen` command; the ***public*** key file is appropriately named with the `.pub` extension. _Friendly Reminder: distributing a **private** key exposes your droplet and your teammate to security vulnerabilities._
 3. Add the public key file to your droplet with the following commands: 
-    `scp ~/teammate_key.pub root@DROPLET_IP:~`
-    `ssh root@DROPLET_IP`
-    `mkdir -p ~/.ssh && touch ~/.ssh/authorized_keys`
-    `cat ~/teammate_key.pub >> ~/.ssh/authorized_keys`
+    <br>`scp ~/teammate_key.pub root@DROPLET_IP:~`
+    <br>`ssh root@DROPLET_IP`
+    <br>`mkdir -p ~/.ssh && touch ~/.ssh/authorized_keys`
+    <br>`cat ~/teammate_key.pub >> ~/.ssh/authorized_keys`
 4. Ask your teammate to log into the droplet to confirm their access works.
 
-**Further Reading:** Detailed instructions are available [here](https://kb.iu.edu/d/aews), along with instructions for PuTTY/Windows.
+**Further Reading:** Detailed instructions for adding your keys to the droplet are available [here](https://kb.iu.edu/d/aews), along with instructions for PuTTY/Windows.
