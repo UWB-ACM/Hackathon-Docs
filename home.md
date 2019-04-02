@@ -6,6 +6,7 @@ Here you can find guides and information that you may want to know before the ev
 
 ### Pages
 *  [Forward](forward)
+*  [Hackathon Preparation Checklist](hackathon-preparation-checklist)
 
 ### Contributing to the documentation
 
