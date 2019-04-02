@@ -1,9 +1,3 @@
----
-title: Hackathon Preparation Checklist
-layout: topic
-categories: no-category
----
-
 Whether you're a hackathon newbie or a 10x "Unicorn",
 you might want to refer to this list while preparing
 to attend the hackathon.

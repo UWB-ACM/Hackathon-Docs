@@ -1,9 +1,3 @@
----
-title: Forward
-layout: topic
-categories: no-category
----
-
 ## Forward
 
 This documentation website was created as a guiding hand to get you started hacking together the best possible project.

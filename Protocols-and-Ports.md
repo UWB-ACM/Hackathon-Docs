@@ -1,9 +1,3 @@
----
-title: Protocols and Ports
-layout: topic
-categories: intro
----
-
 ## Protocols and Ports
 
 There's this thing called the internet layer, which allows `hosts`, (all `servers` are considered to be hosts, but not the other way around) to communicate with each other using `ports`. In computer networking, a port is a communication endpoint. It is where data is sent and recieved in the form of `packets`.

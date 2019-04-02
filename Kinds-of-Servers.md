@@ -1,9 +1,3 @@
----
-title: Kinds of Servers
-layout: topic
-categories: intro
----
-
 ## An Overview of Different Hosting Options
 
 Web hosting can be separated into several different categories of provided options.
