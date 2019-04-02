@@ -2,8 +2,7 @@
 
 Welcome to the documentation for UWB Hacks 2019!
 
-Here you can find guides and information that you may want to know
-before the event begins so that you can show up prepared.
+Here you can find guides and information that you may want to know before the event begins so that you can show up prepared.
 
 ### Contributing to the documentation
 
