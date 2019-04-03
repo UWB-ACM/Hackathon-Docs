@@ -1,5 +1,7 @@
 # Styling your website to be responsive
 
+## Mobile-First Design
+
 ## Viewport
 
 The viewport is the part of the webpage that's currently visible to the user. Viewports vary between different devices,
