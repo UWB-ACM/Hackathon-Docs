@@ -65,3 +65,6 @@ img {
 # References
 
 - https://www.w3schools.com/css/css_rwd_intro.asp
+- https://www.w3schools.com/cssref/css3_pr_mediaquery.asp
+- https://www.w3schools.com/css/css_rwd_images.asp
+- https://www.w3schools.com/css/css_rwd_viewport.asp
