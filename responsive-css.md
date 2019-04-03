@@ -20,6 +20,27 @@ The viewport can be controlled by setting a `<meta>` tag in each web page you'd 
 
 ## Media Queries
 
+Media query is a way to add additional CSS styling based on the given condition of the query.
+
+The query follows the `@media` syntax, followed by the condition on which it should apply the additional CSS, followed by the additional CSS to be applied.
+
+The following example changes the background color of the body to black
+when the browser window's width is 600px or smaller.
+
+```css
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: black;
+  }
+}
+```
+
+The `only` portion of the syntax is used to prevent older browsers that don't support media queries with media features from applying the styles, and does not affect modern browsers.
+
+The `screen` specifies the media type to be used (in this example, it specifies computer screens, mobile devices, etc).
+
+The `and` combines the media feature with the media type, which in the above example it is utilizing the `max-width` media feature.
+
 ## Images
 
 ## Grid Layout
