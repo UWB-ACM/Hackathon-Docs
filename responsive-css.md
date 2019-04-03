@@ -1,4 +1,4 @@
-# Styling your website to be responsive
+# Styling Your Website to Be Responsive
 
 ## Viewport
 
@@ -6,7 +6,7 @@ The viewport is the part of the webpage that's currently visible to the user. Vi
 as the screen size between devices also varies. For example, the viewport of a desktop monitor will be significantly larger than the viewport of
 a mobile device.
 
-The viewport can be controlled by setting a `<meta>` tag in each web page you'd like to make responsive. The following is an example of how to use this tag:
+The viewport can be controlled by setting a `<meta>` tag in each web page you'd like to make responsive. The following is an example of how to use this tag (it should be added somewhere in your `<head>` element):
 
 ```html
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -115,9 +115,9 @@ It can be included via CDN and can be integrated into nearly any part of your we
 
 # References
 
-- https://www.w3schools.com/css/css_rwd_intro.asp
-- https://www.w3schools.com/cssref/css3_pr_mediaquery.asp
-- https://www.w3schools.com/css/css_rwd_images.asp
-- https://www.w3schools.com/css/css_rwd_viewport.asp
-- https://www.w3schools.com/css/css_rwd_frameworks.asp
-- https://getbootstrap.com/docs/4.3/getting-started/introduction/
+- [Responsive Web Design](https://www.w3schools.com/css/css_rwd_intro.asp)
+- [Media Queries](https://www.w3schools.com/cssref/css3_pr_mediaquery.asp)
+- [Responsive Images](https://www.w3schools.com/css/css_rwd_images.asp)
+- [Viewport](https://www.w3schools.com/css/css_rwd_viewport.asp)
+- [Frameworks](https://www.w3schools.com/css/css_rwd_frameworks.asp)
+- [Bootstrap](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
