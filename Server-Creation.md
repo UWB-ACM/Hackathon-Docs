@@ -27,7 +27,7 @@ _Note:_ you are welcome to use any cloud provider you are comfortable with. Sett
 
 ## Step 1: Create Your Digital Ocean Droplet
 
-A **Droplet** is a fancy term Digital Ocean (DO) came up with; fundamentally, it is a remote machine that they provide hardware and infrastructure for. A droplet that you create can be used to deploy websites, run bots, build and run large projects, or anything else you want. 
+A **Droplet** is a fancy term Digital Ocean (DO) came up with; fundamentally, it is a remote virtual machine that they provide hardware and infrastructure for. A droplet that you create can be used to deploy websites, run bots, build and run large projects, or anything else you want. 
 
 Digital Ocean droplets are scalable -- if or when you need more (or less) computational resources, you can change the specifications of your droplet in your DO account management page.
 
