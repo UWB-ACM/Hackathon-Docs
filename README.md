@@ -22,6 +22,10 @@ Wiki.js commands:
 Improper JSON serving
 See [Localization Issue #475](https://github.com/Requarks/wiki/issues/475)
 - [x] This issue has been solved
+### Solution to no styles being displayed
+Improper `host` configuration in the config.yml
+See [Troubleshooting 'no styling'](https://docs.requarks.io/wiki/install/troubleshooting)
+- [x] This issue has been solved
 
 ### To display changes to configuration file:
 
