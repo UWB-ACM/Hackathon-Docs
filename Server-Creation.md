@@ -9,13 +9,16 @@ _Note:_ you are welcome to use any cloud provider you are comfortable with. Sett
 
 ## Step 0: Create an Account on Digital Ocean
 
-- Create an account on [Digital Ocean](https://cloud.digitalocean.com/registrations/new). You will need four pieces of information to complete your account setup:
+- Create an account on [Digital Ocean](https://cloud.digitalocean.com/registrations/new). You will need five pieces of information to complete your account setup:
   - Your name (individual or team name)
   - A valid email address
   - A password for your account
   - A credit or debit card to link to the account
+  - If you haven't gotten access to GitHub's [Student Developer Pack](https://education.github.com/pack), do this now. Every recipient gets a $50.00 Digital Ocean credit, and instructions on redeeming the credit is available [here](https://www.digitalocean.com/community/questions/student-discounts).
 - You will receive a confirmation email after registering; click the confirmation link to finalize account creation.
-- After clicking the confirmation link, you will be taken to a billing page. Please have a credit or debit card ready to link to your new account. _Note: this is a common requirement for all service providers; note that you can suspend services to limit your charges at any time._
+- After clicking the confirmation link, you will be taken to a billing page. Please have a credit or debit card ready to link to your new account. 
+  - Note: this is a common requirement for all service providers; note that you can suspend services to limit your charges at any time.
+  - If you have Digital Ocean credits to apply to your account, you are still required to have a card on file, but all account credits will be used before your card is charged.
 - Next, you will be prompted to create a project. 
   - Make sure you give your project a sweet name! 
   - For the **What is your project for?** question, you can select whichever category you prefer. We recommend _Class project / Educational purposes_, but you may prefer _Web Application_, _Website or blog_, _Service or API_, or _Other_.
@@ -50,9 +53,7 @@ When the droplet has been created, your Project Dashboard will show the droplet 
 
 ## Step 2: Log Into Your Droplet
 
-After the droplet is created, you will receive an email with credentials for your droplet's `root` account. The email will look something like this:
-
-On first login, you will be required to change the password for `root`. Make it something memorable!
+After the droplet is created, you will receive an email with credentials for your droplet's `root` account. On first login, you will be required to change the password for `root`. Make it something memorable!
 
 To log in, SSH into the box using the credentials from your email. An example of the process is provided below.
 
@@ -101,6 +102,8 @@ hello world
 ```
 
 You are now all set to use your droplet!
+
+_Note: no characters will be shown when typing in your password for any ssh session._
 
 ## Step 3 (Optional): Set up Non-Root Account(s) For Your Teammates
 
