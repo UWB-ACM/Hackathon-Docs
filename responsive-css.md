@@ -1,5 +1,7 @@
 # Styling Your Website to Be Responsive
 
+Responsive web design is the practice of using HTML and CSS to automatically resize and re-orient the contents of a webpage to fit on smaller screen resolutions. There are several different methods of acheiving a responsive webpage.
+
 ## Viewport
 
 The viewport is the part of the webpage that's currently visible to the user. Viewports vary between different devices,
@@ -56,7 +58,11 @@ img {
 }
 ```
 
-## Grid Layout
+## Grid View
+
+A grid view is a way to organize the layout of your webpage based on responsive columns.
+
+To learn more about this, click [here](https://www.w3schools.com/css/css_rwd_grid.asp)
 
 ## Frameworks
 
@@ -65,8 +71,6 @@ One of the most popular css frameworks to use is Bootstrap. Bootstrap combines h
 It can be included via CDN and can be integrated into nearly any part of your webpage.
 
 If you'd like to see a working Bootstrap example, click [here](https://codesandbox.io/s/vq430zj5n3)
-
-## Templates
 
 # References
 
