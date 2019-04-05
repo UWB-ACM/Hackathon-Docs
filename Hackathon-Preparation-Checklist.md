@@ -32,6 +32,12 @@ to do much!
   - Signing up for online services like GitHub, AWS,
   or whatever else you may use can eat up valuable
   hackathon time that could be better used elsewhere.
+  - Register for the [GitHub Education Pack](https://education.github.com/pack) 
+  if you haven't already; this will let you use free 
+  account credits on Digital Ocean to host your website. 
+  The Education Pack also has credits and free access codes 
+  for tons of other products, and is a great set of 
+  resources to have in your toolbox while you're a student.
 - Update the software on your machine, and ensure that
   it still works. This is always a good idea, but by
   doing this a few days in advance you'll have time
