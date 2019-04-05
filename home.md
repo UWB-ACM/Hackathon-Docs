@@ -5,11 +5,11 @@
 
 Here you can find guides and information that you may want to know before the event begins so that you can show up prepared.
 
-### Pages
+## Pages
 *  [Forward](getting-started/forward)
 *  [Hackathon Preparation Checklist](getting-started/hackathon-preparation-checklist)
 
-### Contributing to the documentation
+## Contributing to the documentation
 
 If you spot some issue in the documentation,
 contributions are greatly appreciated!
