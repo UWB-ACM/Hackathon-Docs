@@ -26,7 +26,7 @@ to do much!
   - Some programming languages and tools require
   installation of large packages beforehand. During a
   time crunch, installing software is the last thing
-  you want to be doing. [Check this guide for a reference of what to install.][installing-software]
+  you want to be doing.
     - If it's been a while, try out a "Hello World",
     just to ensure your development environment works.
   - Signing up for online services like GitHub, AWS,
