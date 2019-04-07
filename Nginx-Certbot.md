@@ -35,6 +35,7 @@ Installation is relatively easy.
   When prompted with `Do you want to continue? [Y/n]`, type yes and 
   press return.
 - To confirm that `nginx` was installed, rerun `which nginx`.
+  You should now see a path to the executable in the console.
 
 ## Step 2: Get Your Website Code onto the Server
 
@@ -89,6 +90,7 @@ server {
     # the file name should be the desired homepage file for your website located in the directory named in the previous line
     index index.html;       
     # this line is for the domain name you chose
+    # make sure the domain name matches the one you bought!
     server_name phry.me lol.phry.me;
 
     # these lines will help protect users from accessing raw files in your repository folder
@@ -163,12 +165,12 @@ You will be prompted for the following information:
   whether you want to receive correspondence from them.
 - **Choose domains to activate HTTPS for:** CertBot will 
   automatically detect domains that `nginx` is serving content for. 
+  It is advisable to add HTTPS certificates for all domains.
   You can:
   - Select multiple domains individually by numbered listings 
     on the console prompt
   - Leave the input blank to add certificates for all domains listed
   - Enter `c` to cancel the certification process
-  It is advisable to add HTTPS certificates for all domains.
 - **Choose whether to redirect HTTP traffic to HTTPS:** selecting 
   option 2 will redirect all HTTP traffic to HTTPS; this is the best 
   option for security. It is recommended to select option 2 unless 
