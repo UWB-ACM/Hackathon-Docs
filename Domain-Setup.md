@@ -59,7 +59,35 @@ domain to a third-party DNS provider; we recommend using
 [Hurricaine Electric](https://dns.he.net/) because it is free, secure, 
 easy to use, and informative.
 
-## 
+## Step 3: Point the DNS Nameserver Records to Your Server
 
-Possibly cut from docs:
-- DNS record type information here https://en.wikipedia.org/wiki/List_of_DNS_record_types
+This steps allows the DNS nameserver to redirect traffic to the 
+machine(s) you specify, so that web traffic will have content served 
+from the machine containing your webpage files.
+
+To set up basic IPv4 name records on your droplet, follow these steps:
+- Log into your Digital Ocean dashboard.
+- Go to the Networking Management page in Digital Ocean 
+  [here](https://cloud.digitalocean.com/networking/domains?fleetUuid=null&i=a309dd).
+  It can also be accessed by going to Create -> Domains/DNS from the 
+  toolbar at the top of the page.
+- Enter your new domain in the text box on the Networking page, and 
+  click "Add Domain". An example is provided below.
+  ![Add Domain in Dashboard](./images/add_new_domain.png).
+- On the next page, create a new record. The record creation tells 
+  Digital Ocean's nameservers to route traffic for the domain to an 
+  IP or server of your choice; in this example, traffic for 
+  [phry.me](http://phry.me) and [lol.phry.me](http://lol.phry.me) 
+  will be directed to the droplet created earlier.
+  ![DNS records](./images/records_examples.png).
+- This step is complete, and traffic will now be redirected to your 
+  droplet!
+
+Detailed information about the various types of name records to 
+create in Digital Ocean's dashboard are available 
+[here](https://www.digitalocean.com/docs/networking/dns/how-to/manage-records/).
+
+_If you are not using Digital Ocean to serve your content, you can 
+create additional DNS records (A, AAAA, CNAME, etc) in the dashboard 
+of your DNS provider. It is recommended to use Hurricaine Electric; 
+check out their DNS configuration docs [here](https://dns.he.net/docs.html)._
