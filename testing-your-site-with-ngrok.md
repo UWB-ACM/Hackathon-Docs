@@ -80,7 +80,19 @@ will break!
 
 When the `ngrok` application is running, the console window will log
 the connections that are established to your server.
+It'll also include the link where you can access your site.
+
+To expose an application running locally on port `8080` for HTTP
+traffic, I can run the following command:
+
+```console
+$ ~/ngrok http 8080
+```
+
+![Screenshot of the ngrok console application](screenshots/ngrok2.png)
 
 You can also view this same information by opening [localhost:4040](http://localhost:4040) in your browser.
+
+![Screenshot of the ngrok console application](screenshots/ngrok.png)
 
 [ngrok]: https://ngrok.com/
