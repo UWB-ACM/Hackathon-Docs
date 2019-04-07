@@ -93,6 +93,6 @@ $ ~/ngrok http 8080
 
 You can also view this same information by opening [localhost:4040](http://localhost:4040) in your browser.
 
-![Screenshot of the ngrok console application](screenshots/ngrok.png)
+![screenshot of the ngrok web debugger in use](screenshots/ngrok.png)
 
 [ngrok]: https://ngrok.com/
