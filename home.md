@@ -18,6 +18,7 @@ If you spot some issue in the documentation,
 contributions are greatly appreciated!
 
 Please file an issue on the [GitHub repository][github],
+request an organizer to give your account wiki access,
 or fork the repo and submit a new Pull Request.
 
 [github]: https://github.com/UWB-ACM/Hackathon-Docs
