@@ -1,8 +1,4 @@
----
-title: Testing Your Site With ngrok
-layout: topic
-categories: guide
----
+
 
 # Testing Your Server with `ngrok`
 
