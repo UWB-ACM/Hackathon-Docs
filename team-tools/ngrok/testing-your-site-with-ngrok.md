@@ -6,13 +6,9 @@ categories: guide
 
 # Testing Your Server with `ngrok`
 
-[ngrok][ngrok] is a tool for testing your server
-with a public-facing URL.
-You can use it to test on mobile, share with your friends,
-and set up webhooks.
+[ngrok][ngrok] is a tool for testing your server with a public-facing URL. You can use it to test on mobile, share with your friends, and set up webhooks.
 
-It's a great tool for hackathons because of how quickly it
-can be set up, since it doesn't require messing with DNS settings, port forwarding, firewalls, or deploying to another machine.
+It's a great tool for hackathons because of how quickly it can be set up, since it doesn't require messing with DNS settings, port forwarding, firewalls, or deploying to another machine.
 
 ## When to use ngrok
 
