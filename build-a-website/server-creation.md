@@ -1,4 +1,8 @@
-
+---
+title: Create a Web Server on Digital Ocean
+layout: topic
+categories: guide
+---
 
 In order to get your website deployed, you will need to create and configure a machine to do that. This page has all the information you need to create and configure a Digital Ocean droplet to host your website.
 _Note:_ you are welcome to use any cloud provider you are comfortable with. Setting up a machine on Digital Ocean is fast and easy, but you can use AWS, Azure, or any other service provider you prefer. Please note that the technical advisors at the hackathon may not be able to help you troubleshoot account issues for the provider you choose to go with.
