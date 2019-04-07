@@ -19,16 +19,18 @@ droplet, but the specific steps won't differ widely between services.
 Installation is relatively easy.
 - ssh into your droplet.
 - To confirm that the software is not currently installed, run the 
-  following command:<br>
-  ```
+  following command:
+  
+  ```console
   $ which nginx
   $
   ```
   <br>
   If you see no executable path before the prompt reappears, then you 
   will need to install `nginx`.
-- Install `nginx` with the following command:<br>
-  ```
+- Install `nginx` with the following command:
+  
+  ```console
   $ sudo apt-get install nginx
   ```
   <br>
@@ -49,7 +51,14 @@ at [phry.me](http://phry.me).
 To clone the repository, run the following commands and replace the 
 GitHub URL with the URL to your own repository.
 
-```
+There is a standard convention to place web content in the `/var/www` 
+directory, and the standard `nginx` configuration follows this 
+convention. Because conventions are good, it is recommended to follow 
+this practice. (If you are curious about the history of this 
+standard, you can read more about it 
+[here](https://unix.stackexchange.com/questions/47436/why-is-the-root-directory-on-a-web-server-put-by-default-in-var-www).)
+
+```console
 $ cd /var/www
 $ git clone https://www.github.com/UWB-ACM/website-example-2.git
 $ cd website-example-2
@@ -73,7 +82,7 @@ Run the following commands and replace `phry.me` with the domain name
 you chose. _Note: this isn't a strict requirement, but is a common 
 naming convention. It is recommended to use naming conventions._
 
-```
+```console
 $ cd /etc/nginx/sites-available
 $ ls
 default
@@ -174,7 +183,11 @@ You will be prompted for the following information:
 - **Choose whether to redirect HTTP traffic to HTTPS:** selecting 
   option 2 will redirect all HTTP traffic to HTTPS; this is the best 
   option for security. It is recommended to select option 2 unless 
-  your project has a very specific use case for HTTP traffic.
+  your project has a very specific use case for HTTP traffic. _Note: 
+  selecting option 2 will allow CertBot to update your configuration 
+  files for `nginx`; this is okay and, in fact, preferred. All 
+  CertBot content will have comments to that effect, so be mindful 
+  if you edit the configuration files after this step._
 
 That's it! You should be able to test your new website from any 
 computer and any browser and see it live. For example, take a look 
