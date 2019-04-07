@@ -80,7 +80,7 @@ site configuration file called `default` is provided as an example.
 
 Run the following commands and replace `phry.me` with the domain name 
 you chose. _Note: this isn't a strict requirement, but is a common 
-naming convention. It is recommended to use naming conventions._
+naming convention. It is recommended to follow naming conventions._
 
 ```console
 $ cd /etc/nginx/sites-available
