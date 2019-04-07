@@ -118,7 +118,7 @@ when creating the configuration file in `/etc/nginx/sites-available`._
 
 Now, we need to restart the `nginx` process on the machine.
 
-```
+```console
 $ systemctl restart nginx.service
 ```
 
