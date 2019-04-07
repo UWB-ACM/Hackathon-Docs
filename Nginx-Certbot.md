@@ -139,7 +139,7 @@ the user accessing your site remain secure.
 To get started, install the necessary packages by running these 
 commands:
 
-```
+```console
 $ sudo apt-get update && apt-get upgrade
 $ sudo apt-get install software-properties-common
 $ sudo add-apt-repository ppa:certbot/certbot
