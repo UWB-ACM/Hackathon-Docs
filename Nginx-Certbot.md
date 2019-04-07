@@ -108,7 +108,7 @@ content.
 
 Run these commands:
 
-```
+```console
 $ cd /etc/nginx/sites-enabled
 $ ln -s ../sites-available/phry.me .
 ```
