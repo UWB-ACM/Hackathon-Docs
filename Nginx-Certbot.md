@@ -4,7 +4,7 @@ layout: topic
 categories: guide
 ---
 
-Now that you have a domain and a web server, you need to configure 
+Now that you have a domain and a server, you need to configure 
 the server to serve content to your domain.
 
 The two most common web server software suites are 
