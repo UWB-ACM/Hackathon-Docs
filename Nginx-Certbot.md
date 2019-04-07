@@ -150,7 +150,7 @@ $ sudo apt-get install python-certbot-nginx
 Now that the CertBot client is installed, generate a certificate for 
 your site by running the following command:
 
-```
+```console
 $ certbot run
 ```
 
