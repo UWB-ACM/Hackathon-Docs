@@ -1,5 +1,5 @@
 # UWB Hacks 2019 Documentation
-![Powerglove Internet Sticker 1 4](/uploads/uploads/powerglove-internet-sticker-1-4.png "Powerglove Internet Sticker 1 4"){.align-left}
+![Powerglove Internet Sticker 1 4](/uploads/powerglove-internet-sticker-1-4.png "Powerglove Internet Sticker 1 4"){.align-left}
 
 ## Welcome to the documentation for UWB Hacks 2019!
 
