@@ -10,25 +10,25 @@ Here you can find guides and information that you may want to know before the ev
 
 # Pages
 
-### Getting Started
+## Getting Started
 *  [Forward](getting-started/forward)
 *  [Hackathon Preparation Checklist](getting-started/hackathon-preparation-checklist)
 
-### Intro to Web Development
+## Intro to Web Development
 * [Different Kinds of Servers Explained](getting-started/intro-to-webdev/kinds-of-servers)
 * [Languages and Technologies](getting-started/intro-to-webdev/languages-and-technologies)
 * [Protocols and Ports](getting-started/intro-to-webdev/protocols-and-ports)
 
-### Team Tools
+## Team Tools
 * [Collaboration and Version Control](team-tools/collaboration)
 * [Testing and Sharing Site using NGROK](team-tools/ngrok/testing-your-site-with-ngrok)
 
-### Building a Website
+## Building a Website
 * [Domain Setup](build-a-website/domain-setup)
 * [Creating Responsive CSS](build-a-website/responsive-css)
 * [Website Server Creation](build-a-website/website-server-creation)
 
-## Contributing to the documentation
+# Contributing to the documentation
 
 If you spot some issue in the documentation, contributions are greatly appreciated!
 
