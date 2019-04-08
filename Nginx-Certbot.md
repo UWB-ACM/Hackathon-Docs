@@ -32,7 +32,6 @@ Installation is relatively easy.
   ```console
   $ sudo apt-get install nginx
   ```
-  <br>
   When prompted with `Do you want to continue? [Y/n]`, type `yes` and 
   press return.
 - To confirm that `nginx` was installed, rerun `which nginx`.
