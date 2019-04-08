@@ -5,7 +5,7 @@
 
 Here you can find guides and information that you may want to know before the event begins so that you can show up prepared.
 
-## Schedule
+# Schedule
 * [View Schedule](schedule)
 
 # Pages
