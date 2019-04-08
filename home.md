@@ -9,6 +9,7 @@ Here you can find guides and information that you may want to know before the ev
 * [View Schedule](schedule)
 
 ## Pages
+
 ### Getting Started
 *  [Forward](getting-started/forward)
 *  [Hackathon Preparation Checklist](getting-started/hackathon-preparation-checklist)
