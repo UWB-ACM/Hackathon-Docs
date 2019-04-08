@@ -25,7 +25,6 @@ Installation is relatively easy.
   $ which nginx
   $
   ```
-  <br>
   If you see no executable path before the prompt reappears, then you 
   will need to install `nginx`.
 - Install `nginx` with the following command:
