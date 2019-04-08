@@ -8,7 +8,7 @@ Here you can find guides and information that you may want to know before the ev
 ## Schedule
 * [View Schedule](schedule)
 
-## Pages
+# Pages
 
 ### Getting Started
 *  [Forward](getting-started/forward)
