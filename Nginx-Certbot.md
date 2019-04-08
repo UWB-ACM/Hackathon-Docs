@@ -92,7 +92,7 @@ Now, in your preferred text editor, create a file named `phry.me`
 (or whatever your domain name is). Add the following text to the 
 file:
 
-```
+```nginx
 server {
     # replace the filepath with the output from the pwd command from step 2
     root /var/www/website-example-2;
@@ -102,9 +102,13 @@ server {
     # make sure the domain name matches the one you bought!
     server_name phry.me lol.phry.me;
 
-    # these lines will help protect users from accessing raw files in your repository folder
+    # these lines attempt to resolve a URI to a page under the /var/www/website-example-2 directory
     location / {
         try_files $uri $uri/ =404;
+    }
+    # these lines will help protect users from accessing raw files in your .git folder
+    location /.git {
+        deny all;
     }
 }
 ```
