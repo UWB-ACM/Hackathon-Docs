@@ -20,8 +20,9 @@ To get your domain name:
   functionality to help you find the perfect domain name for your 
   project.
 - **For NameCheap:** select [WhoIsGuard](https://www.namecheap.com/support/knowledgebase/article.aspx/278/37/what-is-whoisguard) 
-as an option when you are going through checkout. This is a free 
-service that NameCheap provides that protects your personal information 
+as an option when you are going through checkout, if it is available 
+for your domain's TLD. WhoIsGuard is a free service that NameCheap 
+provides that protects your personal information 
 when other people run `whois` on your domain name.
 - Purchase the domain name.
 
@@ -56,8 +57,18 @@ Don't panic; normally DNS changes propogate in 30-45 minutes.
 
 If you choose to use another provider, you may have to forward the 
 domain to a third-party DNS provider; we recommend using 
-[Hurricaine Electric](https://dns.he.net/) because it is free, secure, 
-easy to use, and informative.
+[Cloudflare](https://www.cloudflare.com/dns/) or 
+[Hurricaine Electric](https://dns.he.net/) because these services 
+are free, secure, easy to use, reliable, and informative.
+
+_Optional but recommended:_ While you're in the management page 
+for the domain, scroll to the bottom of the page to the section 
+labeled "Other Domain Settings". Where it says "Parking Page", 
+click the button labeled "Turn Off" to turn off the parking page. 
+![Parking Page Button](./images/parking_page.png)
+_Note: a NameCheap "Parking Page" is a default page that gets 
+displayed when users try to navigate to your site before the site 
+has been set up._
 
 ## Step 3: Point the DNS Nameserver Records to Your Server
 
