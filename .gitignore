@@ -1,1 +1,8 @@
 .vscode
+_site/
+.sass-cache/
+.jekyll-metadata
+Gemfile.lock
+
+# swp files hrrrrnnngh
+.*.sw?
