@@ -42,7 +42,7 @@ Here's a quick run-down of the steps involved:
 - Under the "Nameservers" section, select "Custom DNS" in the dropdown, 
   and add the server URLs for Digital Ocean. They are 
   `ns[1-3].digitalocean.com`. The end result should look like this:
-  ![NameCheap DNS forwarding](uploads/namecheap_dns.png).
+  ![Namecheap Dns](/uploads/namecheap_dns.png "Namecheap Dns").
 - Click the green check mark to save the DNS settings for the domain.
 
 After saving, you will see a confirmation alert, and the alert will 
@@ -59,7 +59,7 @@ _Optional but recommended:_ While you're in the management page
 for the domain, scroll to the bottom of the page to the section 
 labeled "Other Domain Settings". Where it says "Parking Page", 
 click the button labeled "Turn Off" to turn off the parking page. 
-![Parking Page Button](./images/parking_page.png)
+![Parking Page](/uploads/parking_page.png "Parking Page")
 _Note: a NameCheap "Parking Page" is a default page that gets 
 displayed when users try to navigate to your site before the site 
 has been set up._
@@ -78,13 +78,13 @@ To set up basic IPv4 name records on your droplet, follow these steps:
   toolbar at the top of the page.
 - Enter your new domain in the text box on the Networking page, and 
   click "Add Domain". An example is provided below.
-  ![Add Domain in Dashboard](uploads/add_new_domain.png).
+  ![Add New Domain](/uploads/add_new_domain.png "Add New Domain").
 - On the next page, create a new record. The record creation tells 
   Digital Ocean's nameservers to route traffic for the domain to an 
   IP or server of your choice; in this example, traffic for 
   [phry.me](http://phry.me) and [lol.phry.me](http://lol.phry.me) 
   will be directed to the droplet created earlier.
-  ![DNS records](uploads/records_examples.png).
+  ![Records Examples](/uploads/records_examples.png "Records Examples").
 - This step is complete, and traffic will now be redirected to your 
   droplet!
 
