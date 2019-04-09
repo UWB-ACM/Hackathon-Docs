@@ -47,6 +47,8 @@ The `screen` specifies the media type to be used (in this example, it specifies 
 
 The `and` combines the media feature with the media type, which in the above example it is utilizing the `max-width` media feature.
 
+If you'd like to see how this is used on the uwbhacks website, visit [here](https://github.com/UWB-ACM/uwb-hacks/blob/db87a01eff49f4f750aed1348c8388d342c46d64/styles.scss#L289)
+
 ## Images
 
 An image's CSS can be set to scale up or down depending on the width or height of the device. This can be acheived via the following example:
