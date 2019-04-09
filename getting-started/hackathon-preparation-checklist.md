@@ -1,9 +1,3 @@
----
-title: Hackathon Preparation Checklist
-layout: topic
-categories: guide
----
-
 Whether you're a hackathon newbie or a 10x "Unicorn",
 you might want to refer to this list while preparing
 to attend the hackathon.
@@ -26,12 +20,18 @@ to do much!
   - Some programming languages and tools require
   installation of large packages beforehand. During a
   time crunch, installing software is the last thing
-  you want to be doing. [Check this guide for a reference of what to install.][installing-software]
+  you want to be doing.
     - If it's been a while, try out a "Hello World",
     just to ensure your development environment works.
   - Signing up for online services like GitHub, AWS,
   or whatever else you may use can eat up valuable
   hackathon time that could be better used elsewhere.
+  - Register for the [GitHub Education Pack](https://education.github.com/pack) 
+  if you haven't already; this will let you use free 
+  account credits on Digital Ocean to host your website. 
+  The Education Pack also has credits and free access codes 
+  for tons of other products, and is a great set of 
+  resources to have in your toolbox while you're a student.
 - Update the software on your machine, and ensure that
   it still works. This is always a good idea, but by
   doing this a few days in advance you'll have time
