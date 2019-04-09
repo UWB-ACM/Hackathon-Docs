@@ -20,8 +20,9 @@ To get your domain name:
   functionality to help you find the perfect domain name for your 
   project.
 - **For NameCheap:** select [WhoIsGuard](https://www.namecheap.com/support/knowledgebase/article.aspx/278/37/what-is-whoisguard) 
-as an option when you are going through checkout. This is a free 
-service that NameCheap provides that protects your personal information 
+as an option when you are going through checkout, if it is available 
+for your domain's TLD. WhoIsGuard is a free service that NameCheap 
+provides that protects your personal information 
 when other people run `whois` on your domain name.
 - Purchase the domain name.
 
@@ -56,10 +57,48 @@ Don't panic; normally DNS changes propogate in 30-45 minutes.
 
 If you choose to use another provider, you may have to forward the 
 domain to a third-party DNS provider; we recommend using 
-[Hurricaine Electric](https://dns.he.net/) because it is free, secure, 
-easy to use, and informative.
+[Cloudflare](https://www.cloudflare.com/dns/) or 
+[Hurricaine Electric](https://dns.he.net/) because these services 
+are free, secure, easy to use, reliable, and informative.
 
-## 
+_Optional but recommended:_ While you're in the management page 
+for the domain, scroll to the bottom of the page to the section 
+labeled "Other Domain Settings". Where it says "Parking Page", 
+click the button labeled "Turn Off" to turn off the parking page. 
+![Parking Page Button](./images/parking_page.png)
+_Note: a NameCheap "Parking Page" is a default page that gets 
+displayed when users try to navigate to your site before the site 
+has been set up._
 
-Possibly cut from docs:
-- DNS record type information here https://en.wikipedia.org/wiki/List_of_DNS_record_types
+## Step 3: Point the DNS Nameserver Records to Your Server
+
+This steps allows the DNS nameserver to redirect traffic to the 
+machine(s) you specify, so that web traffic will have content served 
+from the machine containing your webpage files.
+
+To set up basic IPv4 name records on your droplet, follow these steps:
+- Log into your Digital Ocean dashboard.
+- Go to the Networking Management page in Digital Ocean 
+  [here](https://cloud.digitalocean.com/networking/domains?fleetUuid=null&i=a309dd).
+  It can also be accessed by going to Create -> Domains/DNS from the 
+  toolbar at the top of the page.
+- Enter your new domain in the text box on the Networking page, and 
+  click "Add Domain". An example is provided below.
+  ![Add Domain in Dashboard](./images/add_new_domain.png).
+- On the next page, create a new record. The record creation tells 
+  Digital Ocean's nameservers to route traffic for the domain to an 
+  IP or server of your choice; in this example, traffic for 
+  [phry.me](http://phry.me) and [lol.phry.me](http://lol.phry.me) 
+  will be directed to the droplet created earlier.
+  ![DNS records](./images/records_examples.png).
+- This step is complete, and traffic will now be redirected to your 
+  droplet!
+
+Detailed information about the various types of name records to 
+create in Digital Ocean's dashboard are available 
+[here](https://www.digitalocean.com/docs/networking/dns/how-to/manage-records/).
+
+_If you are not using Digital Ocean to serve your content, you can 
+create additional DNS records (A, AAAA, CNAME, etc) in the dashboard 
+of your DNS provider. It is recommended to use Hurricaine Electric; 
+check out their DNS configuration docs [here](https://dns.he.net/docs.html)._
