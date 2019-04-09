@@ -27,6 +27,7 @@ Here you can find guides and information that you may want to know before the ev
 * [Domain Setup](build-a-website/domain-setup)
 * [Creating Responsive CSS](build-a-website/responsive-css)
 * [Website Server Creation](build-a-website/website-server-creation)
+* [Securing Your Website with NGINX Certbot](build-a-website/nginx-certbot)
 
 # Contributing to the documentation
 
