@@ -1,9 +1,3 @@
----
-title: Configure Nginx and TLS Certifications on Your Server
-layout: topic
-categories: guide
----
-
 Now that you have a domain and a server, you need to configure 
 the server to serve content to your domain.
 
