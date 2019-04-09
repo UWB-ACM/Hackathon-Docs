@@ -1,9 +1,3 @@
----
-title: Obtain A Domain Name and Redirect Domain DNS
-layout: topic
-categories: guide
----
-
 Now that you have a webpage and are ready to deploy it, you need to 
 set up a domain name for your website. This wiki will walk you through 
 that process.
@@ -48,7 +42,7 @@ Here's a quick run-down of the steps involved:
 - Under the "Nameservers" section, select "Custom DNS" in the dropdown, 
   and add the server URLs for Digital Ocean. They are 
   `ns[1-3].digitalocean.com`. The end result should look like this:
-  ![NameCheap DNS forwarding](./images/namecheap_dns.png).
+  ![NameCheap DNS forwarding](uploads/namecheap_dns.png).
 - Click the green check mark to save the DNS settings for the domain.
 
 After saving, you will see a confirmation alert, and the alert will 
@@ -84,13 +78,13 @@ To set up basic IPv4 name records on your droplet, follow these steps:
   toolbar at the top of the page.
 - Enter your new domain in the text box on the Networking page, and 
   click "Add Domain". An example is provided below.
-  ![Add Domain in Dashboard](./images/add_new_domain.png).
+  ![Add Domain in Dashboard](uploads/add_new_domain.png).
 - On the next page, create a new record. The record creation tells 
   Digital Ocean's nameservers to route traffic for the domain to an 
   IP or server of your choice; in this example, traffic for 
   [phry.me](http://phry.me) and [lol.phry.me](http://lol.phry.me) 
   will be directed to the droplet created earlier.
-  ![DNS records](./images/records_examples.png).
+  ![DNS records](uploads/records_examples.png).
 - This step is complete, and traffic will now be redirected to your 
   droplet!
 
