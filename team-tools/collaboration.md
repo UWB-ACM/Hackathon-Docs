@@ -1,8 +1,3 @@
----
-title: Collaboration Tools
-layout: topic
-categories: guide
----
 A key component of a successful hackathon is being able to efficiently 
 collaborate with other members of your team. There are many different 
 free tools that can help you with this. Some collaboration tools that 
