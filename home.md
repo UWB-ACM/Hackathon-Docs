@@ -13,6 +13,7 @@ Here you can find guides and information that you may want to know before the ev
 ## Getting Started
 *  [Forward](getting-started/forward)
 *  [Hackathon Preparation Checklist](getting-started/hackathon-preparation-checklist)
+*  [Project Ideas](getting-started/project-ideas)
 
 ## Intro to Web Development
 * [Different Kinds of Servers Explained](getting-started/intro-to-webdev/kinds-of-servers)
