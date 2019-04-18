@@ -89,10 +89,10 @@ traffic, I can run the following command:
 $ ~/ngrok http 8080
 ```
 
-![Screenshot of the ngrok console application](screenshots/ngrok2.png)
+![Screenshot of the ngrok console application](uploads/ngrok2.png)
 
 You can also view this same information by opening [localhost:4040](http://localhost:4040) in your browser.
 
-![screenshot of the ngrok web debugger in use](screenshots/ngrok.png)
+![screenshot of the ngrok web debugger in use](uploads/ngrok.png)
 
 [ngrok]: https://ngrok.com/

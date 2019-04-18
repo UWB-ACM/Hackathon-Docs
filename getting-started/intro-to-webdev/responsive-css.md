@@ -118,7 +118,7 @@ It can be included via CDN and can be integrated into nearly any part of your we
 ```
 
 Output of the following code
-![Screenshot of the output of the code](./bootstrap-example.png)
+![Screenshot of the output of the code](uploads/bootstrap-example.png)
 
 If you'd like to see working bootstrap examples, visit [here](https://getbootstrap.com/docs/4.3/examples/)
 # References
