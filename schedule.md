@@ -2,7 +2,7 @@
 
 | Time | Event |
 | ------ | ----------- |
-| 9:15 AM |	Registration and Morning Coffee |
+| 9:15 AM	Registration and Morning Coffee |
 | 10:00 AM	Opening Ceremony |
 | 10:30 AM	Team Building Mixer hosted by MIS Club |
 | 11:15 AM	Intro to HTML, CSS, and JavaScript |
