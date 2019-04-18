@@ -6,7 +6,7 @@
 Here you can find guides and information that you may want to know before the event begins so that you can show up prepared.
 
 # Schedule
-* [View Schedule](schedule)
+* [View Schedule](https://uwbhacks.com)
 
 # Pages
 
@@ -22,8 +22,8 @@ Here you can find guides and information that you may want to know before the ev
 * [Creating Responsive CSS](getting-started/intro-to-webdev/responsive-css)
 
 ## Team Tools
-* [Collaboration and Version Control](team-tools/collaboration)
-* [Testing and Sharing Site Using NGROK](team-tools/ngrok/testing-your-site-with-ngrok)
+* [Collaboration and Version Control](getting-started/intro-to-webdev/collaboration)
+* [Testing and Sharing Site Using NGROK](getting-started/intro-to-webdev/testing-your-site-with-ngrok)
 
 ## Building a Website
 * [Domain Setup](deploy-a-website/domain-setup)
