@@ -68,6 +68,10 @@ _A more in-depth checklist of what to bring and prepare for a hackathon._
 [So, you're new to hackathons. - dev.to][so-ur-new-to-hacking]
 _Tailored more for MLH hackathons, but may still be useful for this event too._
 
+[A Comprehensive Guide on How to Hackathon][how-to-hackathon]
+_A great overview on how to make your hackathon project (and experience) a success. Written by a UWB Hacks mentor!_
+
 [hackathon-checklist]: https://medium.com/hackconcordia/hackathon-checklist-525cc675a83f
 [so-ur-new-to-hacking]: https://dev.to/kimcodes/so-youre-new-to-hackathons
+[how-to-hackathon]: https://medium.com/@adammirza_97878/a-comprehensive-guide-on-how-to-hackathon-6d7ec00e1a08
 [installing-software]: test
