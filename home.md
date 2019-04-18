@@ -8,6 +8,10 @@ Here you can find guides and information that you may want to know before the ev
 # Schedule
 * [View Schedule](https://uwbhacks.com)
 
+## Presentation Materials
+
+* [Intro to HTML, CSS, and JS Workshop](presentations/htmlcssjs)
+
 # Pages
 
 ## Getting Started
