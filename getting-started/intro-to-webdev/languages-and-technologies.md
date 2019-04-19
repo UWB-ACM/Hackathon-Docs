@@ -6,7 +6,7 @@
 Each year Stack Overflow surveys the community to learn more about developers who use its platform. Information collected ranges from pay to popular technologies.
 * [Link to Survey](https://insights.stackoverflow.com/survey/2019)
 
-![tech network](/uploads/tech-network-1.svg)
+![Web](/uploads/web.png "Web")
 
 ## Interesting Insights
 
