@@ -19,7 +19,7 @@ Each year Stack Overflow surveys the community to learn more about developers wh
 ### Other Popular Frameworks
 ![other popular frameworks](/uploads/other-frameworks.png)
 
-### Popular Web Dev Languages
+### Popular Languages
 ![markup language](/uploads/markup-languages.png)
 
 ### Most Loved Languages
