@@ -17,10 +17,10 @@ Each year Stack Overflow surveys the community to learn more about developers wh
 ![most loved frameworks](/uploads/most-loved-frameworks.png)
 
 ### Other Popular Frameworks
-![other popular frameworks](/uploads/other-framework.png)
+![other popular frameworks](/uploads/other-frameworks.png)
 
 ### Popular Web Dev Languages
-![markup language](/uploads/markup.png)
+![markup language](/uploads/markup-languages.png)
 
 ### Most Loved Languages
 ![most loved languages](/uploads/most-loved-languages.png)
