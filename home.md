@@ -5,6 +5,36 @@
 
 Here you can find guides and information that you may want to know before the event begins so that you can show up prepared.
 
+## How to Submit Your Project
+
+You've done well to make it to the end of the day. We can't wait to see what you've been working on
+and I'm sure you are excited to share your projects.
+
+Project presentations will begin at 9:15 PM. You'll have about 3 minutes to demo
+(might change depending on the number of people). Do whatever you feel best represents your project.
+We can pull up your project's site or repo, but we recommend that you bring a laptop up if you have HDMI or VGA.
+
+Present your project to recieve an "I Demoed" keychain!
+
+Please have the following information ready:
+
+- Project Name
+- Team Name
+- Team Members (MAX 5, ONE SUBMISSION PER TEAM)
+- Project Description
+- Project Links/Website/GitHub Repo
+- Links to Screenshots on GitHub
+
+1. [First, submit your project here. https://forms.gle/UkxpL96C3pWS4boB7](https://forms.gle/UkxpL96C3pWS4boB7)
+2. Then, post about your project using our template on Discord. Check out other projects while you are at it.
+3. Volunteer for presentations starting at 9:15 PM.
+
+Once everyone has demoed, we'll open up a survey where you can vote on the student favorite.
+The judges will deliberate and choose the winners of each of the other awards.
+Awards will be presented at the end.
+
+Good luck!
+
 # Schedule
 * [View Schedule](https://uwbhacks.com)
 
